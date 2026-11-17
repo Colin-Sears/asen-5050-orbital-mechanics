@@ -1,0 +1,35 @@
+# Allow-list: only the reusable function library is published.
+# Homework scripts, calculators, data files, and drafts stay local.
+*
+!.gitignore
+!README.md
+
+# Two-body / orbital elements
+!computeOrbitalElements.m
+!computeOrbitShape.m
+!computeOrbitTime.m
+!computeOrbitEpoch.m
+!computeOrbitRotation.m
+!convertAnomaly.m
+
+# Kepler's equation
+!keplersEquationFunction.m
+!keplersFunction.m
+!keplersInitialGuess.m
+
+# Lambert's problem
+!computeSpaceTriangle.m
+!findTransferOrbitType.m
+!computeMinimumEnergyTransfer.m
+!computeAuxiliaryAngles.m
+!lambertsFunction.m
+!calculateTrueAnomalyTransfer.m
+!calculateLagrangeCoef.m
+!calculateVelocityTransfer.m
+
+# Relative motion
+!getHCWState.m
+
+# Utilities
+!getCelestialParameters.m
+!readEphemeris.m
